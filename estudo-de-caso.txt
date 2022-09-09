@@ -1,0 +1,24 @@
+.
+├── jest.config.js
+├── package.json
+├── src
+│   ├── data
+│   │   ├── user.csv
+│   │   └── user.properties
+│   └── models
+│       ├── dao
+│       │   ├── UserPropertyDAO.test.ts
+│       │   └── UserPropertyDAO.ts
+│       └── entities
+│           └── UserProperty.ts
+└── yarn.lock
+
+5 directories, 8 files
+
+Tests over new property insertion
+  It should contain the new property after add it to the properties file
+  It should contain all the new properties after add them to the properties file
+
+Tests over querying properties
+  It should return null when key is not found
+  It should return correct value when key is found
